@@ -1,0 +1,23 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# ML Model files (auto-generated, should be trained locally)
+model.pkl
+scaler.pkl
+
+# Data visualizations (auto-generated)
+correlation_heatmap.png
+distribution_*.png
+feature_importance.png
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
